@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerSearch360</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+</head>
+
+<body>
+    <section class="Sub-header">
+        <nav>
+                <div style="text-align: center; margin-top: 10px;">
+                    <a href="index.html" class="logo">Career
+                        <i class="fab fa-staylinked"></i>earch 360
+                    <p class="para"> The Complete Career Hub!! </p>
+                </div>
+            </a>
+            
+            <div class="nav-links" id="navLinks">
+                <!-- Reposnive bar open and close -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="search.html">Search a Career</a></li>
+                    <li><a href="qna.html">Q&A</a></li>
+                    <li><a href="fb.html">Feedback</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <!-- Reposnive bar open and close -->
+        </nav>
+        <h1>Explore through wide range of career options</h1>
+    </section>
+
+    <div class="jobs-list-container">
+  
+        <input class="job-search" type="text" placeholder="Search here..." />
+  
+        <div class="jobs"></div>
+      </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

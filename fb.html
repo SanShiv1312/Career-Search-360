@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerSearch360</title>
+    <link rel="stylesheet" href="style.css">
+    <form action="db.php" method="post"></form>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+</head>
+
+<body>
+    <section class="Sub-header-fb">
+        <nav>
+                <div style="text-align: center; margin-top: 10px;">
+                    <a href="index.html" class="logo">Career
+                        <i class="fab fa-staylinked"></i>earch 360
+                    <p class="para"> The Complete Career Hub!! </p>
+                </div>
+            </a>
+            
+            <div class="nav-links" id="navLinks">
+                <!-- Reposnive bar open and close -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="search.html">Search a Career</a></li>
+                    <li><a href="qna.html">Q&A</a></li>
+                    <li><a href="fb.html">Feedback</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+
+    <section class="loacation">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2182.907947734397!2d80.22704528888413!3d12.875581551733283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525b8c90befe2b%3A0x170ab8b5b21bb530!2sSathyabama%20Institute%20of%20Science%20and%20Technology!5e0!3m2!1sen!2sin!4v1681886669906!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="content-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Shollinganallur, Tamil Nadu, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 9999999999</h5>
+                        <p>Contact us !!</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>xyz@email.com</h5>
+                        <p>Email Us Yor Query</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="content-col">
+                <form action="http://127.0.0.1:80/db.php" method="post">
+                    <input type="text" placeholder="Enter Name" required name="name"/>
+                    <input type="email" placeholder="Enter Email" required name = "mail"/>
+                    <input type="text" placeholder="Enter Subject" required name = "subject"/>
+                    <textarea rows="8" placeholder="Message" required name = "message"></textarea>
+                    <button type="submit" class="hero_btn btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
