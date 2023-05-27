@@ -1,6 +1,12 @@
 # Career-Search-360
-A Career Search Application
+`Career Search 360` is a handy web application for browsing and searching about various career options available and will serve for questionaire and guidance purposes as well...
 
 
-### `Front page`
+## `Front page`
 ![Imgur](https://imgur.com/wbAaHk7.jpg)
+`- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - `
+## `Career Search Page` 
+![Imgur-2](https://imgur.com/ne7QXyR.jpg)
+`- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - `
+## `Search Items`
+![Imgur-3](https://imgur.com/dwigX8M.jpg)
